@@ -25,7 +25,7 @@ function clock()
         else
         {
             hours = hours - 12;
-            time = hours + " : " + minutes + " : " + seconds + " AM"; 
+            time = hours + " : " + minutes + " : " + seconds + " PM"; 
         }
     }
     document.getElementById('time').innerHTML = time;
